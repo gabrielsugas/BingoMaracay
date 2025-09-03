@@ -255,7 +255,7 @@ def seleccion_cartones(page: ft.Page):
             content=ft.Column(
                 controls=[
                     ft.Image(
-                        src=f"cartones/bingo_card_{int(n)}.png",
+                        src=f"https://bijbbbgclsdcyivympop.supabase.co/storage/v1/object/public/cartones/bingo_card_{int(n)}.png",
                         fit=ft.ImageFit.CONTAIN,
                         border_radius=8
                     ),
